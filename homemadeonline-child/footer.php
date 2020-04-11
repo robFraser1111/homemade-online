@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="row wrapper align-items-end">
 							<div class="col-sm-6">
 	
-								<p class="text-light">Homemade Online Vic, 2020</p>
+								<p class="text-light">Homemade Online Vic, <?php echo date("Y"); ?></p>
 								<?php wp_nav_menu(
 									array(
 										'theme_location'  => 'primary',
