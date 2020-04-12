@@ -22,9 +22,10 @@
                         <img class="border border-warning" src="<?php echo get_site_url(); ?>/wp-content/uploads/stall_placeholder_01.png" alt="Stall placeholder">
                     <?php } ?>
                 </a>
-                <p>
+                <h5>
                     <b class="text-secondary"><?php the_title(); ?></b>
-                    <br>
+                </h5>
+                <p>
                     <?php the_excerpt(); ?> <a href="<?php echo get_post_permalink(); ?>"><b>...Read more</b></a>
                 </p>
             </div>

@@ -22,12 +22,12 @@
                         <img class="border border-warning" src="<?php echo get_site_url(); ?>/wp-content/uploads/stall_placeholder_01.png" alt="Stall placeholder">
                     <?php } ?>
                 </a>
-                <p>
+                <h5>
                     <a href="<?php the_field('stalls_website'); ?>" target="_blank">
                         <b class="text-secondary"><?php the_title(); ?></b>
-                    </a><br>
-                    <?php the_field('stalls_description'); ?>
-                </p>
+                    </a>
+                </h5>
+                <?php the_field('stalls_description'); ?>
             </div>
 
         <?php endforeach; ?>

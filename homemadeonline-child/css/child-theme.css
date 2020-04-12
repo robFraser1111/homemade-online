@@ -11450,12 +11450,14 @@ h1 {
   color: #F67280 !important;
   text-decoration: none !important; }
 
-.posts p {
+.posts p, .posts h5 {
   max-width: 300px; }
 
-.posts img, .posts p {
-  display: block;
-  margin: 0 auto; }
+.posts img, .posts p, .posts h5 {
+  display: block; }
+
+.posts h5 {
+  margin-top: 8px; }
 
 .navbar-toggler {
   padding: 0; }
