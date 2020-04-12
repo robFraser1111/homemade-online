@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark" aria-labelledby="main-nav-label">
+		<nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
@@ -54,7 +54,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-				<div class="navbar-toggler-icon">
+				<div>
 					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32">
 						<g id="Menu" transform="translate(0 1)">
 							<line id="Bottom" x2="40" transform="translate(0 30)" fill="none" stroke="#f67280" stroke-width="2"/>
