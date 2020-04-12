@@ -11462,6 +11462,9 @@ h1 {
 .navbar-toggler {
   padding: 0; }
 
+.side-menu {
+  min-height: 1080px; }
+
 @media (max-width: 576px) {
   .navbar-brand {
     max-width: 200px; } }
@@ -11473,7 +11476,7 @@ h1 {
         bottom: 0;
         width: 100%;
     } */
-  html, body, .site, #page-wrapper, #single-wrapper, #content {
+  html, body, #single-wrapper, #content {
     height: 100%; } }
 
 @media (min-width: 768px) and (max-width: 1200px) {

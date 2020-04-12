@@ -1,4 +1,4 @@
-<div class="d-none d-sm-none d-md-block col-md-2 bg-light padding-large">
+<div class="side-menu d-none d-sm-none d-md-block col-md-2 bg-light padding-large">
 
     <!-- Your site title as branding in the menu -->
     <a href="<?php echo get_site_url() ?>">
