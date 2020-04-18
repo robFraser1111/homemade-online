@@ -11467,6 +11467,9 @@ h1 {
 .side-menu {
   min-height: 1080px; }
 
+article .post .entry-content {
+  max-width: 800px; }
+
 @media (max-width: 576px) {
   .navbar-brand {
     max-width: 200px; } }
