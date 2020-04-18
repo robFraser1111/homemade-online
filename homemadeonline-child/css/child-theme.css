@@ -11467,7 +11467,7 @@ h1 {
 .side-menu {
   min-height: 1080px; }
 
-article .post .entry-content {
+.post {
   max-width: 800px; }
 
 @media (max-width: 576px) {
