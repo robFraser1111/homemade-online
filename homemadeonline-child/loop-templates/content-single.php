@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
 
 		<div class="entry-meta">
 
-			<?php understrap_posted_on(); ?>
+			<h5 class="text-muted">Article by <?php echo get_the_author(); ?><br>Published <?php echo get_the_date( 'd M, Y' ); ?></h5>
 
 		</div><!-- .entry-meta -->
 
