@@ -82,14 +82,12 @@ defined( 'ABSPATH' ) || exit;
 
 			<!-- Image -->
 			<div class="col-lg-6 order-1 order-lg-2 pb-2">
-				<a href="<?php the_field('stalls_website'); ?>" target="_blank">
-					<?php	/* Check for an image and use a placeholder if none */ 
-						if (get_the_post_thumbnail( $post->ID, 'large' )) {
-						echo get_the_post_thumbnail( $post->ID, 'large', array('class' => 'border border-secondary')); 
-					} else { ?>
-						<img class="border border-warning" src="<?php echo get_site_url(); ?>/wp-content/uploads/stall_placeholder_01.png" alt="Stall placeholder">
-					<?php } ?>
-				</a>
+				<?php	/* Check for an image and use a placeholder if none */ 
+					if (get_the_post_thumbnail( $post->ID, 'large' )) {
+					echo get_the_post_thumbnail( $post->ID, 'large', array('class' => 'border border-secondary')); 
+				} else { ?>
+					<img class="border border-warning" src="<?php echo get_site_url(); ?>/wp-content/uploads/stall_placeholder_01.png" alt="Stall placeholder">
+				<?php } ?>
 			</div>
 			
 		</div>
