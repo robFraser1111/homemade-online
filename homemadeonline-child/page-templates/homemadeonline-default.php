@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="row">
 
-						<div class="col-sm-12 col-md-8">
+						<div class="col-12">
 							<?php while ( have_posts() ) : the_post(); ?>
 
 								<?php get_template_part( 'loop-templates/content', 'page' ); ?>

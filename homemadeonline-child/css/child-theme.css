@@ -11470,6 +11470,9 @@ h1 {
 .post {
   max-width: 800px; }
 
+.links .fa {
+  font-size: 32px; }
+
 @media (max-width: 576px) {
   .navbar-brand {
     max-width: 200px; } }

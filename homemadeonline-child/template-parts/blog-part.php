@@ -25,9 +25,6 @@
                 <h5>
                     <b class="text-secondary"><?php the_title(); ?></b>
                 </h5>
-                <p>
-                    <?php the_excerpt(); ?> <a href="<?php echo get_post_permalink(); ?>"><b>...Read more</b></a>
-                </p>
             </div>
 
         <?php endforeach; ?>

@@ -13,7 +13,7 @@
             setup_postdata( $post ); ?>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-4 posts">
-                <a href="<?php the_field('stalls_website'); ?>" target="_blank">
+                <a href="<?php echo get_post_permalink() ?>">
 
                     <?php	/* Check for an image and use a placeholder if none */ 
                         if (get_the_post_thumbnail( $post->ID, 'thumbnail' )) {
@@ -27,7 +27,6 @@
                         <b class="text-secondary"><?php the_title(); ?></b>
                     </a>
                 </h5>
-                <?php the_field('stalls_description'); ?>
             </div>
 
         <?php endforeach; ?>
