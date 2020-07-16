@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) || exit;
 
 				<?php if ( get_field('email') ) { ?>
 					<div class="py-2 pr-3" style="display: inline-block">
-						<a href="<?php the_field('email'); ?>" target="_blank">
+						<a href="mailto:<?php the_field('email'); ?>">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</a>
 					</div>
@@ -48,7 +48,7 @@ defined( 'ABSPATH' ) || exit;
 
 				<?php if ( get_field('phone') ) { ?>
 					<div class="py-2 pr-3" style="display: inline-block">
-						<a href="<?php the_field('phone'); ?>" target="_blank">
+						<a href="tel:<?php the_field('phone'); ?>">
 							<i class="fa fa-phone" aria-hidden="true"></i>
 						</a>
 					</div>
